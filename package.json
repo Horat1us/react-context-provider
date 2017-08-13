@@ -1,6 +1,6 @@
 {
   "name": "wrap-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Context Provider for tests (TypeScript)",
   "main": "build/main.js",
   "scripts": {
