@@ -12,12 +12,18 @@ See in [tests](./tests)
 
 
 ```typescript jsx
-import {reactContextProviderFactory} from 'react-context-provider';
-const ReactContextProvider = reactContextProviderFactory(YourComponent);
+import {wrapContext} from 'wrap-context';
+const ReactContextProvider = wrapContext(YourComponent);
 
 export default <ReactContextProvider context={{
     text: "Context your component will receive"
 }}/>
 ```
+## Installing
+Using NPM:
+```bash
+npm i --save-dev wrap-context
+```
+
 ## License
 MIT
