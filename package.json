@@ -40,6 +40,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.1",
     "clean-webpack-plugin": "^0.1.16",
+    "codecov": "^2.3.0",
     "enzyme": "^2.9.1",
     "jsdom": "^11.1.0",
     "jsdom-global": "^3.0.2",
@@ -52,9 +53,29 @@
     "source-map-loader": "^0.2.1",
     "source-map-support": "^0.4.15",
     "ts-node": "^3.3.0",
+    "typescript": "^2.4.2",
     "webpack": "^3.5.4"
   },
   "peerDependencies": {
-    "react": "^15.6.1"
+    "react": "^15.6.1",
+    "prop-types": "^15.5.10"
+  },
+  "nyc": {
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "exclude:": [
+      "**/*.d.ts",
+      "webpack.config.js",
+      "codecept.conf.js",
+      "tests",
+      "build"
+    ],
+    "reporter": [
+      "clover",
+      "text-summary"
+    ],
+    "report-dir": "./tests/output"
   }
 }

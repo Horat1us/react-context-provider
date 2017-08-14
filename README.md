@@ -1,6 +1,6 @@
 # React Context Provider
-[![codecov](https://codecov.io/gh/horat1us/react-context-provider/branch/master/graph/badge.svg)](https://codecov.io/gh/horat1us/react-context-provider)
-[![Build Status](https://travis-ci.org/horat1is/react-context-provider.svg?branch=master)](https://travis-ci.org/horat1us/react-context-provider)
+[![codecov](https://codecov.io/gh/horat1us/wrap-context/branch/master/graph/badge.svg)](https://codecov.io/gh/horat1us/wrap-context)
+[![Build Status](https://travis-ci.org/Horat1us/wrap-context.svg?branch=master)](https://travis-ci.org/Horat1us/wrap-context)
 
 Sample wrapper for providing context in tests.
 *Includes Typescript definitions and tests.*
