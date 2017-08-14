@@ -28,7 +28,7 @@ const config = {
     },
 
     output: {
-        filename: '[name].js',
+        filename: 'index.js',
         path: path.resolve('./build'),
         publicPath: "/",
     },
